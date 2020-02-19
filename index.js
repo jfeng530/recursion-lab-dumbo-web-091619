@@ -39,3 +39,7 @@ function maxOf(myArr) {
     return Math.max(myArr.pop(), maxOf(myArr))
   }
 }
+
+function includesNumber(myArr) {
+  if (myArr[0] === )
+}
