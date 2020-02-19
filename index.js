@@ -36,6 +36,6 @@ function maxOf(myArr) {
   if (myArr.length === 1) {
     return myArr[0]
   } else {
-    
+    return Math.max(myArr.pop(), maxOf(myArr))
   }
 }
