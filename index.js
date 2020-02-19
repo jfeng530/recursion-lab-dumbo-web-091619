@@ -44,6 +44,6 @@ function includesNumber(myArr, num) {
   if (myArr[0] === num) {
     return true
   } else {
-    return includesNumber(myArr.slice)
+    return includesNumber(myArr.slice(1), num)
   }
 }
